@@ -25,7 +25,12 @@ pip install -r requirements.txt
 # Preparation
 dataset https://pan.baidu.com/s/1wEOFh-CIiLPbLfODk7E-QQ?pwd=ru4y code: ru4y 
 # Training & Inference
-
+CUDA_VISIBLE_DEVICES=$gpu_id python train.py
+bash test.sh
 # Acknowledgments
+This project is heavily inspired by the excellent work from:
 
+- [AdaCLIP by Yunkang Cao](https://github.com/caoyunkang/AdaCLIP)
+
+We sincerely thank the author for sharing their contributions.
 # Citation
