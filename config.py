@@ -1,0 +1,1 @@
+DATA_ROOT = r"/root/autodl-tmp/"
